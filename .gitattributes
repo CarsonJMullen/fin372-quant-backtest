@@ -1,3 +1,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.lta filter=lfs diff=lfs merge=lfs -text
 .dta filter=lfs diff=lfs merge=lfs -text
+.csv filter=lfs diff=lfs merge=lfs -text
+*.dta filter=lfs diff=lfs merge=lfs -text
