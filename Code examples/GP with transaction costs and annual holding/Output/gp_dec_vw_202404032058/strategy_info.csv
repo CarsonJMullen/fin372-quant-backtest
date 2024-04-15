@@ -1,0 +1,10 @@
+,0
+brief descriptor,gp_dec_vw
+plot descriptor,"Gross Profitability Strategy, Value-Weighted"
+universe,Public US equities with accounting data
+signals,"Revenue minus COGS scaled by prior-year book value of assets, measured at end of most recent fiscal year"
+trading rule,"Buy top 10% by gross profitability, short bottom 10%, value-weighted"
+holding period,One month
+periods per year,12
+time lag,Minimum of 120 days from end of fiscal year
+output folder name,Output
