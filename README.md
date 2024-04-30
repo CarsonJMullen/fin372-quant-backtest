@@ -2,7 +2,7 @@
 
 This repo was built as a Final Project in FIN 372 Quant Investment Management at the University of Texas at Austin, where we instructed to create a trading strategy and backtest the historical results of employing that strategy.
 
-### Basics of Our Strategy
+# Basics of Our Strategy
 
 ## Data Sources
 
