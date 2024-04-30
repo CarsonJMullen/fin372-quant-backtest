@@ -39,35 +39,38 @@ February 29th, 2024 was the last day that we had information on Fama-French retu
 
 ## File Directory
 
-### 1. pull_data.ipynb
+### 1. Final Report.pdf
+*  Final write up fully explaining our work
+
+### 2. pull_data.ipynb
 
 * Pulls price and return data from yf and renames tickers in Equity Issuances file to correctly merge
 
-### 2. constants.py
+### 3. constants.py
 
 * Holds constant information used in multiple files
 
-### 3. sbf_data_processor.ipynb
+### 4. sbf_data_processor.ipynb
 * Loads and merges price and signal data
 * Provides universe of securities and signals for each date
 
-### 4. portfolio_db.ipynb
+### 5. portfolio_db.ipynb
 * Tracks current portfolio and account balance sheet
 * Keeps records of all trades/transactions
 * Keeps history of NAV and margin requirements
 
-### 5. sbf_trading_rule.ipynb
+### 6. sbf_trading_rule.ipynb
 * Decides which trades to make given a universe of securities, signals, and current portfolio
 
-### 6. backtest_executor.ipynb
+### 7. backtest_executor.ipynb
 * "Submits" order either hypothetically using historical data or live to a brokerage
 * Calculates or retrieves transaction prices accounting for any liquidity costs
 
-### 7. backtest_statistician.ipynb
+### 8. backtest_statistician.ipynb
 * Looks at results of backtest or live trading and computes statistics ($\alpha$ etc) as well as informative plots (e.g. NAV and margin over time)
 
-### 8. Output (Folder)
+### 9. Output (Folder)
 * Shows account history, backtest stats (multi-factor regression), plot of returns, and the specific trades made for each holding period
 
-### 9. regression-comp.xslx
+### 10. regression-comp.xslx
 * Directly compares backtest_stats.csv of all four holding periods and includes t-stat values
