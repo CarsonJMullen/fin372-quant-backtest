@@ -4,6 +4,10 @@ This repo was built as a Final Project in FIN 372 Quant Investment Management at
 
 ## Basics of Our Strategy
 
+### Intuition/Abstract
+
+When banks issue secondary equity offerings, we predict that this will cause panic to sell the bank’s stock due to liquidity and bank run concerns, and a coinciding rush to alternative currencies, namely Bitcoin, over the next two weeks. Our backtest takes short positions on all US bank stocks, classified by Bloomberg, on the announcement of additional equity offerings, and buys Bitcoin for the same dollar amount for a 2-week holding period. Overall, the best backtest of a 14-day holding period shows positive results, with annualized arithmetic returns of 4.792%, an annualized Sharpe ratio of 1.046, and an annualized alpha of 2.823% that is statistically significant.
+
 ### Data Sources
 
 * Bloomberg: Pulled dates of all US bank secondary equity issuance announcements
