@@ -67,7 +67,7 @@ February 29th, 2024 was the last day that we had information on Fama-French retu
 * Looks at results of backtest or live trading and computes statistics ($\alpha$ etc) as well as informative plots (e.g. NAV and margin over time)
 
 ### 8. Output (Folder)
-* Shows account history, backtest stats (multi-factor regression), plot of returns, and the specific trades made for each timing period
+* Shows account history, backtest stats (multi-factor regression), plot of returns, and the specific trades made for each holding period
 
 ### 9. regression-comp.xslx
 * Directly compares backtest_stats.csv of all four holding periods and includes t-stat values
