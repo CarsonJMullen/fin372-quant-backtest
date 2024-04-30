@@ -1,1 +1,1 @@
-holding_period = 14
+holding_period = 7
