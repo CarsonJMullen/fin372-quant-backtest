@@ -67,7 +67,7 @@ February 29th, 2024 was the last day that we had information on Fama-French retu
 * Decides which trades to make given a universe of securities, signals, and current portfolio
 
 ### 7. backtest_executor.ipynb
-* "Submits" order either hypothetically using historical data or live to a brokerage
+* Submits order using historical data
 * Calculates or retrieves transaction prices accounting for any liquidity costs
 
 ### 8. backtest_statistician.ipynb
